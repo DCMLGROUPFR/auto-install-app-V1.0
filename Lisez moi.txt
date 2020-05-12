@@ -1,0 +1,14 @@
+====================auto-install-app-V1.0====================
+
+Ce script est baser sur le programme Chocolatey pour i'utiliser il faut 
+
+1. Executer PowerShell en mode administrateur 
+
+2. Copier Coller la commende suivente :
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+3. aprés installation de Chocolatey fermer PowerShell puis exicuter le script Soft.bat en tant qu'administrateur
+
+4. aprés execution du script toutes les application seront installer
+pour ajouter ou vos application, ouvrer le fichier soft.bat avec Blocnot ou notpad++ 
+et modifier le a votre gise
